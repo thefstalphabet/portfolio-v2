@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
 import "./Home.css"
+
+// Components Imports
 
 function Home() {
     return (
-        <div className="Home">
-            <h2>Welcome to the Home</h2>
+        <div className="home">
+            <Navbar/>
         </div>
     )
 }

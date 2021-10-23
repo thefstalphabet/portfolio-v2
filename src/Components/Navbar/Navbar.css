@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    min-height: 10vh;
+    align-items: center;
+    background-color: var(--gray-color);
+    color: var(--black-color);
+}
+.navbarLogo{
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 3px;
+}
+.navbarLinks{
+    display: flex;
+}
+.navbarLinks > li{
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+.navbarLinks > li > a{
+    font-weight: 400;
+    font-size: larger;
+    color: var(--black-color);
+}
+.navbarLinks > li > a:hover{
+    background-color: var(--black-color);
+    color: var(--gray-color);
+}
+.navbarIcon{
+    font-size: 30px !important;
+    cursor: pointer;
+    display: none !important;
+}
+@media all and (max-width: 750px){
+    .navbarIcon{
+        display: block !important;
+    }
+    .navbarLinks{
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--black-color);
+        padding: 10px 100px;
+        transform: translateX(-500px);
+    }
+    .navbarLinks > li{
+        line-height: 3;
+    }
+    .navbarLinks > li > a{
+        color: var(--gray-color);
+    }
+    .navbarLinks > li > a:hover{
+        background-color: var(--gray-color);
+        color: var(--black-color);
+    }
+}
