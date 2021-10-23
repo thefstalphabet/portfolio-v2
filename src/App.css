@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Global CSS Variables */
 body{
-    --main-color: yellow;
+    --main-color: #FFC312;
+    --black-color: #262626;
+    --gray-color: #DDDDDD;
 }
