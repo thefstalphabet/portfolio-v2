@@ -9,7 +9,8 @@
 }
 .navbarLogo{
     font-family: 'Yellowtail', cursive;
-    letter-spacing: 3px;
+    letter-spacing:3px;
+    font-size: 30px;
 }
 .navbarLinks{
     display: flex;
@@ -32,9 +33,10 @@
     cursor: pointer;
     display: none !important;
 }
-@media all and (max-width: 750px){
+@media all and (max-width: 900px){
     .navbarIcon{
         display: block !important;
+        z-index: 2;
     }
     .navbarLinks{
         position: absolute;
@@ -45,6 +47,8 @@
         background-color: var(--black-color);
         padding: 10px 100px;
         transform: translateX(-500px);
+        z-index: 1;
+        position: fixed;
     }
     .navbarLinks > li{
         line-height: 3;
