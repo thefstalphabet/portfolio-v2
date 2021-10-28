@@ -1,5 +1,6 @@
 // Page Components
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/Home/Home';
+import Experiences from './Pages/Home/Experiences/Experiences';
 
 // Components
 
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact/>
+          <Route path="/experiences" component={Experiences} exact/>
         </Switch>
       </Router>
     </div>

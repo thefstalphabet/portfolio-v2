@@ -1,0 +1,15 @@
+.experience{
+    padding: 20px;
+    background-color: var(--main-color);
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.experience > h2{
+    font-size: 23px;
+    font-weight: 600;
+}
+.experience > h3{
+    font-size: 17px;
+    font-weight: 600;
+}
