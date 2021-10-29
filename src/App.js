@@ -1,6 +1,7 @@
 // Page Components
-import Home from './Pages/Home/Home/Home';
-import Experiences from './Pages/Home/Experiences/Experiences';
+import Home from './Pages/Home/Home';
+import Experiences from './Pages/Experiences/Experiences';
+import About from './Pages/About/About';
 
 // Components
 
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/" component={Home} exact/>
           <Route path="/experiences" component={Experiences} exact/>
+          <Route path="/about" component={About} exact/>
         </Switch>
       </Router>
     </div>

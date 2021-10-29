@@ -1,9 +1,9 @@
 import './Navbar.css';
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 
 // Other Imports
-import {Link} from 'react-router-dom'
-import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'react-router-dom';
+import { CgMenuRight } from "react-icons/cg";
 
 export default function Navbar() {
     // State To Manage Menu Toggle
@@ -19,7 +19,7 @@ export default function Navbar() {
                 <li><Link to="/experties">Experties</Link></li>
                 <li><Link to="/constact">Contact</Link></li>
             </ul>
-            <MenuIcon className="navbarIcon" onClick={() => setOpen(!open)} />
+            <CgMenuRight className="navbarIcon" onClick={() => setOpen(!open)} />
         </div>
     )
 }

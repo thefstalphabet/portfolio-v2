@@ -1,15 +1,18 @@
 import React from 'react';
-import Navbar from '../../../Components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 import "./Home.css";
-import Avatar from '../../../Assets/avatar.png';
+import Avatar from '../../Assets/avatar.png';
 import { Button } from '@material-ui/core';
 import Experiences from '../Experiences/Experiences';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
+import Experties from '../Experties/Experties';
 
 // Components Imports
 
 function Home() {
     return (
-        <div className="home">
+        <div id="home">
             {/* Landing Page */}
             <Navbar/>
             <div className="homeBody">
@@ -25,6 +28,17 @@ function Home() {
 
             {/* Experiences Section */}
             <Experiences/>
+
+            {/* About Section */}
+            <About/>
+
+            {/* Project Section */}
+            
+
+            {/* Experties Section */}
+            <Experties/>
+
+            {/* Contact Section */}
         </div>
     )
 }

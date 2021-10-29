@@ -4,7 +4,6 @@
     justify-content:space-around;
     min-height: 10vh;
     align-items: center;
-    background-color: var(--gray-color);
     color: var(--black-color);
 }
 .navbarLogo{
@@ -25,8 +24,8 @@
     color: var(--black-color);
 }
 .navbarLinks > li > a:hover{
-    background-color: var(--black-color);
-    color: var(--gray-color);
+    transition: 0.2s step-end;
+    border-bottom: 2px solid var(--black-color);
 }
 .navbarIcon{
     font-size: 30px !important;
@@ -57,7 +56,6 @@
         color: var(--gray-color);
     }
     .navbarLinks > li > a:hover{
-        background-color: var(--gray-color);
-        color: var(--black-color);
+        border-bottom: 2px solid var(--gray-color);
     }
 }
