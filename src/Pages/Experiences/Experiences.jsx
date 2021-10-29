@@ -1,13 +1,13 @@
 import React from 'react';
-import Experience from '../../../Components/Experience/Experience';
+import Experience from '../../Components/Experience/Experience';
 import './Experiences.css';
-import ExperienceData from '../../../Components/Experience/ExperienceData';
+import ExperienceData from '../../Components/Experience/ExperienceData';
 
 function Experiences() {
     return (
-        <div className="experiences">
+        <div id="experiences">
             <div className="experiencesHeader">
-                <h1>Experiences</h1>
+                <h1>My Experiences</h1>
             </div>
             <div className="experiencesBody">
                 {ExperienceData.map((e)=>(

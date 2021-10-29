@@ -1,0 +1,11 @@
+#experiences{
+    margin-top: 10%;
+    padding: 20px;
+    color: var(--black-color) !important;
+}
+.experiencesHeader > h1{
+    padding: 10px;
+}
+.experiencesBody{
+    margin-top: 30px;
+}

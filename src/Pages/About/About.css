@@ -1,11 +1,15 @@
-.experiences{
+#about{
     margin-top: 10%;
     padding: 20px;
     color: var(--black-color) !important;
 }
-.experiencesHeader > h1{
+.aboutHeader > h1{
     padding: 10px;
 }
-.experiencesBody{
+.aboutBody{
     margin-top: 30px;
+    padding: 10px;
+}
+.aboutBody > p{
+    font-size: 20px;
 }

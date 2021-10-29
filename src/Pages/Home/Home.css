@@ -1,3 +1,13 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 15px;
+}
+
 .homeBody{
     text-align: center;
     margin-top: 5%;
