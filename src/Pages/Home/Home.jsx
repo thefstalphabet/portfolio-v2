@@ -7,6 +7,7 @@ import Experiences from '../Experiences/Experiences';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Experties from '../Experties/Experties';
+import GithubGraph from '../../Components/GithubGraph/GithubGraph';
 
 // Components Imports
 
@@ -38,7 +39,8 @@ function Home() {
             {/* Experties Section */}
             <Experties/>
 
-            {/* Contact Section */}
+            {/* Github Graph */}
+            <GithubGraph/>
         </div>
     )
 }
