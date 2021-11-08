@@ -1,11 +1,11 @@
 #experiences{
-    margin-top: 10%;
-    padding: 20px;
+    margin-top: 2rem;
+    padding: 1rem;
     color: var(--black-color) !important;
 }
-.experiencesHeader > h1{
-    padding: 10px;
-}
 .experiencesBody{
-    margin-top: 30px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
+    grid-gap: 30px;
 }

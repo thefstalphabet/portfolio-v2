@@ -1,15 +1,19 @@
 .experience{
-    padding: 20px;
+    padding: 1rem;
+    border: 0.1rem solid var(--main-color);
+    border-radius: 0.5rem;
+    transition: 1s;
+    text-align: center;
+}
+.experience:hover{
     background-color: var(--main-color);
-    margin: 10px;
-    border-radius: 20px;
-    display: inline-block;
+    color: var(--black-color);
 }
 .experience > h2{
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .experience > h3{
-    font-size: 17px;
+    font-size: 1.2rem;
     font-weight: 600;
 }

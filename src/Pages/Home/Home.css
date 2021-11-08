@@ -1,17 +1,17 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.5rem;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--main-color);
-    border-radius: 15px;
+    border-radius: 0.8rem;
 }
 
 .homeBody{
     text-align: center;
-    margin-top: 5%;
-    padding: 20px;
+    margin-top: 2rem;
+    padding: 1rem;
     color: var(--black-color) !important;
 }
 .homeBody_avatar{
@@ -20,25 +20,25 @@
     border-radius: 50%;
 }
 .homeBody > h1{
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .homeBody > p{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .homeBody_btns {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
-.homeBody_btns > .btn1{
-    background: var(--main-color) !important;
+.homeBody_btns > button{
+    border: 0.1rem solid var(--main-color) !important;
     color: var(--black-color) !important;
     font-weight: 500 !important;
-    margin-right: 20px;
+    margin-right: 1rem;
+    transition: 1s;
 }
-.homeBody_btns > .btn2{
-    border: 2px solid var(--main-color) !important;
+.homeBody_btns > button:hover{
+    background-color: var(--main-color) !important;
     color: var(--black-color) !important;
-    font-weight: 500 !important;
 }

@@ -8,15 +8,15 @@
 }
 .navbarLogo{
     font-family: 'Yellowtail', cursive;
-    letter-spacing:3px;
-    font-size: 30px;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
 }
 .navbarLinks{
     display: flex;
 }
 .navbarLinks > li{
     list-style: none;
-    padding: 0 10px 0 10px;
+    padding: 0 0.7rem 0 0.7rem;
 }
 .navbarLinks > li > a{
     font-weight: 400;
@@ -25,10 +25,10 @@
 }
 .navbarLinks > li > a:hover{
     transition: 0.2s step-end;
-    border-bottom: 2px solid var(--black-color);
+    border-bottom: 0.1rem solid var(--black-color);
 }
 .navbarIcon{
-    font-size: 30px !important;
+    font-size: 2rem !important;
     cursor: pointer;
     display: none !important;
 }
@@ -44,7 +44,7 @@
         left: 0;
         height: 100vh;
         background-color: var(--black-color);
-        padding: 10px 100px;
+        padding: 1rem 10rem;
         transform: translateX(-500px);
         z-index: 1;
         position: fixed;
@@ -56,6 +56,6 @@
         color: var(--gray-color);
     }
     .navbarLinks > li > a:hover{
-        border-bottom: 2px solid var(--gray-color);
+        border-bottom: 0.1rem solid var(--gray-color);
     }
 }

@@ -12,7 +12,7 @@ function GithubGraph() {
             blockMargin={5}
             blockSize={20}
             color="#FFC312"
-            fontSize={20}
+            fontSize={17}
             />
         </div>
     )

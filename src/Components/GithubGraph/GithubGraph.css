@@ -1,9 +1,9 @@
 .githubGraph{
-    margin-top: 10%;
-    padding: 30px;
+    margin-top: 2rem;
+    padding: 1rem;
     color: var(--black-color) !important;
     text-align: center;
 }
 .githubGraph > h1{
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }

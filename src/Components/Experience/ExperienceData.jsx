@@ -15,6 +15,14 @@ const ExperienceData = [
         end_date: "Oct 2021",
         location: "Bangalore Urban, Karnataka, India",
     },
+    {   
+        role: "Brand Ambassador",
+        company_name: "Tutedude",
+        employment_type: "Internship",
+        start_date: "Jul 2021",
+        end_date: "Aug 2021",
+        location: "New Delhi, Delhi India",
+    },
 ]
 
 export default ExperienceData

@@ -5,7 +5,6 @@ import Avatar from '../../Assets/avatar.png';
 import { Button } from '@material-ui/core';
 import Experiences from '../Experiences/Experiences';
 import About from '../About/About';
-import Projects from '../Projects/Projects';
 import Experties from '../Experties/Experties';
 import GithubGraph from '../../Components/GithubGraph/GithubGraph';
 
@@ -20,10 +19,10 @@ function Home() {
                 <img className="homeBody_avatar" src={Avatar} alt="Avatar" />
                 <h1>Hola! 👋🏻</h1>
                 <p>I'm Akash</p>
-                <p>A Web-Developer and Compititve Programmer</p>
+                <p>I ❤️ to Code</p>
                 <div className="homeBody_btns">
-                    <Button className="btn1" variant="contained">Know About</Button>
-                    <Button className="btn2" variant="outlined">Contact</Button>
+                    <Button variant="outlined">Contact Me</Button>
+                    <Button variant="outlined">Know About</Button>
                 </div>
             </div>
 
@@ -36,11 +35,12 @@ function Home() {
             {/* Project Section */}
             
 
+            {/* Github Graph */}
+            <GithubGraph/>
+
             {/* Experties Section */}
             <Experties/>
 
-            {/* Github Graph */}
-            <GithubGraph/>
         </div>
     )
 }
