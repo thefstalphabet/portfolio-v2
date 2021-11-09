@@ -20,7 +20,7 @@
   position: absolute;
   top: calc(-78px / 2);
   transform: rotate(45deg);
-  left: 39%;
+  /* left: 39%; */
   transition: 1s;
 }
 .skill:hover > div{

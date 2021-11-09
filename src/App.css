@@ -8,6 +8,7 @@
 body{
     --main-color: #FFC312;
     --black-color: #262626;
-    --gray-color: #DDDDDD;
+    --gray-light-color: #DDDDDD;
+    --gray-color: #808080;
     --white-color: #ffffff
 }

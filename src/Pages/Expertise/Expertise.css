@@ -1,0 +1,28 @@
+#expertise{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.expertiseBody{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
+    grid-gap: 60px;
+}
+.expertiseBody > h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.technicalSkill{
+    margin-top: 2rem;
+}
+.technicalSkill > h2{
+    margin-bottom: 1rem;
+}
+.technicalSkill_icons{
+    font-size: 2.5rem;
+    color: var(--gray-color);
+}
+.technicalSkill_icons > .icon{
+    margin-right: 1rem;
+    display: inline-block;
+}
