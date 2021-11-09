@@ -8,6 +8,7 @@ import About from '../About/About';
 // import Expertise from '../Expertise/Expertise';
 import GithubGraph from '../../Components/GithubGraph/GithubGraph';
 import Expertise from '../Expertise/Experties';
+import Footer from '../../Components/Footer/Footer';
 
 // Components Imports
 
@@ -42,6 +43,9 @@ function Home() {
 
             {/* Github Graph */}
             <GithubGraph/>
+
+            {/* Footer Section */}
+            <Footer/>
 
         </div>
     )

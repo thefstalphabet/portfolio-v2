@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+.footerIcons{
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.5rem;
+}
+.footerIcons > .icon{
+    cursor: pointer;
+    transition: 1s;
+    color: var(--white-color);
+}
+.footerIcons > .icon:hover{
+    color: var(--main-color);
+}
+.footer > p{
+    margin-bottom: 3rem;
+    text-align: center;
+}
