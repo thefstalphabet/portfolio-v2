@@ -5,8 +5,9 @@ import Avatar from '../../Assets/avatar.png';
 import { Button } from '@material-ui/core';
 import Experiences from '../Experiences/Experiences';
 import About from '../About/About';
-import Experties from '../Experties/Experties';
+// import Expertise from '../Expertise/Expertise';
 import GithubGraph from '../../Components/GithubGraph/GithubGraph';
+import Expertise from '../Expertise/Experties';
 
 // Components Imports
 
@@ -31,15 +32,16 @@ function Home() {
 
             {/* About Section */}
             <About/>
+            
+
+            {/* Experties Section */}
+            <Expertise/>
 
             {/* Project Section */}
             
 
             {/* Github Graph */}
             <GithubGraph/>
-
-            {/* Experties Section */}
-            <Experties/>
 
         </div>
     )
